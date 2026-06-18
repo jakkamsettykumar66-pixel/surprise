@@ -1,0 +1,8 @@
+git init 
+git config user.name "user"
+git config user.email "user@gmail.com"
+git add .
+git commit -m "write content"
+git remote add origin URL
+git push origin master/main
+git pull origin master/main
