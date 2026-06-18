@@ -1,0 +1,13 @@
+adduser username
+>To check currently which user you are working as: whoami
+> To check who is the default user: who
+> To list all the users present in the system: cat /etc/passwd (or) getent passwd
+> To switch to root user: sudo su root su ----> switch user
+> To create the users: adduser user_name (or) useradd -m -s /bin/bash user_name
+> To switch to other user: su user_name
+> To switch to other user along with the directory: su - user_name
+> To delete the user: userdel user_name (or) deluser user_name
+> To delete the user along with his directory: userdel -r user_name
+> To know the details of a particular user: getent passwd user_name
+> To know the ID of any user: id user_name
+> To exit from any user: exit
